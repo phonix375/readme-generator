@@ -10,12 +10,12 @@ There's no one right way to structure a good README. There is one very wrong way
     If you're new to Markdown, read the GitHub guide on Mastering Markdown
     If you need an example of a good README, check out the VSCode repository.
   ## Table of content
-  - [Discreption](##Description)
-- [Installation](##Installation)
-- [Usage](##Usage)
-- [License](##License)
-- [Contributing](##Contributing)
-- [Contact](##Contact)
+  - [Discreption](##description)
+- [Installation](##installation)
+- [Usage](##usage)
+- [License](##license)
+- [Contributing](##contributing)
+- [Contact](##contact)
 - phonix375, kotliar.alex@gmail.com
   ## Installation
   What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
