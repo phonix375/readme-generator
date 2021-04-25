@@ -22,23 +22,23 @@ function tableOfContent(data){
 //contributing
 //contact
 
-tableOfContentOutput = '- [Discreption](##Description)';
+tableOfContentOutput = '* [Discreption](#Description)';
 if(!data.installation == ''){
-  tableOfContentOutput += '\n- [Installation](##Installation)';
+  tableOfContentOutput += '\n* [Installation](#Installation)';
 }
 console.log('this is before usage : ',data.usage)
 
 if(!data.usage == ''){
-  tableOfContentOutput += '\n- [Usage](##Usage)';
+  tableOfContentOutput += '\n* [Usage](#Usage)';
 }
 if(!data.license == ''){
-  tableOfContentOutput += '\n- [License](##License)';
+  tableOfContentOutput += '\n* [License](#License)';
 }
 if(!data.contributing == ''){
-  tableOfContentOutput += '\n- [Contributing](##Contributing)';
+  tableOfContentOutput += '\n* [Contributing](#Contributing)';
 }
 if(!data.username == '' || !data.email == ''){
-  tableOfContentOutput += '\n- [Contact](##Contact)';
+  tableOfContentOutput += '\n* [Contact](#Contact)';
   tableOfContentOutput += `\n- ${data.username}, ${data.email}`;
 }
 return(tableOfContentOutput);
