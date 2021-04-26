@@ -1,31 +1,33 @@
-  # Your Project Title
+
+  # Ream Me Generator
   ## Description
-  Your GitHub profile is an extremely important aspect of your public identity as a developer. A well-crafted one allows you to show off your work to other developers as well as potential employers. An important component of your GitHub profile—and one that many new developers often overlook—is the README.md file.
-    The quality of a README often differentiates a good project from a bad project. A good one takes advantage of the opportunity to explain and showcase what your application does, justify the technologies used, 
-    and even talk about some of the challenges you faced and features you hope to implement in the future. A good README helps you stand out among the large crowd of developers putting their work on GitHub.
-    
-There's no one right way to structure a good README. There is one very wrong way, however, and that is to not include a README at all or to create a very anemic one. This guide outlines a few best practices. As you progress in your career, you will develop your own ideas about what makes a good README.
-    At a minimum, your project README needs a title and a short description explaining the what, why, and how. What was your motivation? Why did you build this project? (Note: The answer is not "Because it was a homework assignment.") What problem does it solve? What did you learn? What makes your project stand out?
-    Lastly, if your project is deployed, include a link to the deployed application here.
-    If you're new to Markdown, read the GitHub guide on Mastering Markdown
-    If you need an example of a good README, check out the VSCode repository.
+  A node.js application was made to simplify and mainstream the creation of a proper read me file for the GitHub application using Javascript and Markdown from the command line. A well-written ReadMe is one of the keys to the success of your application, and a lot of time this is the part a lot of developers don't spend a lot of time on. This application will create the readme file for you and will guide you with questions about your application.The output will be with the proper like to license and use information, installation of your application, and table of content.
   ## Table of content
-  - [Discreption](#description)
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-- [Contributing](#contributing)
-- [Contact](#contact)
-- phonix375, kotliar.alex@gmail.com
+  * [Discreption](#Description)
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [Contributing](#Contributing)
+* [Contact](#Contact)
   ## Installation
-  What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+To install this application, you will need NODE.JS and NPM installed on your computer, clone this repository, and in the directory install the dependencies using NPM "npm install" then run the application using "node index.js"
   ## Usage
-  Provide instructions and examples for use. Include screenshots as needed.
-    To add a screenshot, create an 'assets/images' folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-    md
-    ![alt text](assets/images/screenshot.png)
-    
-  ## License
-  MIT
+To generate a ReadMe.md from the main directory run index.js using node and answer the questions in the terminal, after you complete all the questions the app will generate the readme file to the output folder. 
+  IBM Public License Version 1.0
+
+  [![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
+MIT
+
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
   ## Contributing
-  If you created an application or package and would like other developers to contribute it, you will want to add guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own.
+If you want to improve this app you are more than welcome, just submit a pull request or send me a message on Github. 
+  
+  ## Contact 
+[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Phonix375)
+
+  
+ Email : kotliar.alex@gmail.com
+
+  
+[Link to GitHub](https://github.com/Phonix375)
+  
